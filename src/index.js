@@ -16,9 +16,7 @@ connectDB()
     console.log("MONGO db connection failed !!! ", err);
 })
 
-app.get('/',(req,res)=>{
-    res.send('radhamadhav')
-})
+
 
 app.get('/ram',(req,res)=>{
     res.send('radhamadhav , hare krishna')
